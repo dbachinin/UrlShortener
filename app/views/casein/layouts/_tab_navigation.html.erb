@@ -1,0 +1,10 @@
+<!-- NOTE: the casein:scaffold generator automatically appends new controllers to this file. The SCAFFOLD_INSERT line must NOT be removed -->
+<!-- SCAFFOLD_INSERT -->
+<%
+inboxes = Inbox.all.where(reseiver: current_user)
+count_inbox ||=0
+count_inbox = inboxes.where(read: nil).count 
+%>
+
+<li id="tab-inboxes"><%= link_to "Inbox \(#{count_inbox}\)", casein_inboxes_path %></li>
+<li id="tab-links"><%= link_to "Links", casein_links_path %></li>
