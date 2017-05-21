@@ -4,7 +4,7 @@ module Casein
   class LinksController < Casein::CaseinController
     ## optional filters for defining usage according to Casein::AdminUser access_levels
     # before_action :needs_admin, except: [:action1, :action2]
-    before_action :needs_admin_or_current_user, except: [:index, :new, :create, :update, :destr]
+    #before_action :needs_admin_or_current_user, except: [:index, :new, :create, :update, :destr]
   
     def index
       @casein_page_title = 'Links'
