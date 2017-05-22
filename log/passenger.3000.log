@@ -1,0 +1,110 @@
+[ 2017-05-22 12:02:43.2598 1829/7f41a8fc1780 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-05-22 12:02:43.2669 1832/7fe2230bd780 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-05-22 12:02:43.2670 1832/7fe2230bd780 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-05-22 12:02:43.2696 1832/7fe2230bd780 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 1832
+[ 2017-05-22 12:02:43.2768 1838/7f3b26919780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-05-22 12:02:43.2773 1838/7f3b26919780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 1838
+App 1872 stdout: 
+[ 2017-05-22 12:02:46.0219 1832/7fe222fce700 age/Cor/SecurityUpdateChecker.h:356 ]: Security update check: no update found (next check in 24 hours)
+App 1894 stdout: 
+
+[ 2017-05-22 12:04:27.0811 1832/7fe21c4c0700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-05-22 12:04:27.0811 1832/7fe2230bd780 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-05-22 12:04:27.0811 1832/7fe2230bd780 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 1894, application /home/ubuntu/UrlShortener/public (development)
+[ 2017-05-22 12:04:27.0811 1832/7fe21bc3e700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-05-22 12:04:27.0812 1832/7fe21bc3e700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-05-22 12:04:27.0813 1832/7fe21c4c0700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-05-22 12:04:27.0813 1832/7fe21c4c0700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2017-05-22 12:04:27.0813 1832/7fe2230bd780 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 1894, application /home/ubuntu/UrlShortener/public (development)
+
+[ 2017-05-22 12:04:27.0850 1838/7f3b1fcdd700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-05-22 12:04:27.0850 1838/7f3b26919780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-05-22 12:04:27.0851 1838/7f3b1f4dc700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-05-22 12:04:27.0851 1838/7f3b1f4dc700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-05-22 12:04:27.0852 1838/7f3b1fcdd700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-05-22 12:04:27.0853 1838/7f3b26919780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-05-22 12:04:27.3094 1832/7fe2230bd780 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2017-05-22 12:07:10.9160 2107/7ff40979a780 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-05-22 12:07:10.9232 2110/7fbaac700780 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-05-22 12:07:10.9233 2110/7fbaac700780 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-05-22 12:07:10.9260 2110/7fbaac700780 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 2110
+[ 2017-05-22 12:07:10.9338 2116/7f9b2eb21780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-05-22 12:07:10.9342 2116/7f9b2eb21780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 2116
+App 2150 stdout: 
+[ 2017-05-22 12:07:13.7891 2110/7fbaac611700 age/Cor/SecurityUpdateChecker.h:356 ]: Security update check: no update found (next check in 24 hours)
+App 2172 stdout: 
+App 2192 stdout: 
+App 2209 stdout: 
+
+[ 2017-05-22 12:07:47.2963 2110/7fbaa5b03700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-05-22 12:07:47.2963 2110/7fbaac700780 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-05-22 12:07:47.2963 2110/7fbaac700780 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2172, application /home/ubuntu/UrlShortener/public (development)
+[ 2017-05-22 12:07:47.2964 2110/7fbaac700780 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2192, application /home/ubuntu/UrlShortener/public (development)
+[ 2017-05-22 12:07:47.2964 2110/7fbaac700780 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2209, application /home/ubuntu/UrlShortener/public (development)
+[ 2017-05-22 12:07:47.2964 2110/7fbaa5281700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-05-22 12:07:47.2964 2110/7fbaa5281700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-05-22 12:07:47.2966 2110/7fbaa5b03700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-05-22 12:07:47.2966 2110/7fbaa5b03700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2017-05-22 12:07:47.2966 2110/7fbaac700780 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2172, application /home/ubuntu/UrlShortener/public (development)
+[ 2017-05-22 12:07:47.2966 2110/7fbaac700780 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2192, application /home/ubuntu/UrlShortener/public (development)
+[ 2017-05-22 12:07:47.2966 2110/7fbaac700780 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2209, application /home/ubuntu/UrlShortener/public (development)
+
+[ 2017-05-22 12:07:47.3010 2116/7f9b27ee5700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-05-22 12:07:47.3010 2116/7f9b2eb21780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-05-22 12:07:47.3011 2116/7f9b276e4700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-05-22 12:07:47.3011 2116/7f9b276e4700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-05-22 12:07:47.3012 2116/7f9b27ee5700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-05-22 12:07:47.3013 2116/7f9b2eb21780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-05-22 12:07:47.5260 2110/7fbaac700780 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2017-05-22 12:09:21.5254 2263/7fe15e1af780 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-05-22 12:09:21.5326 2266/7f99d45bb780 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-05-22 12:09:21.5326 2266/7f99d45bb780 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-05-22 12:09:21.5354 2266/7f99d45bb780 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 2266
+[ 2017-05-22 12:09:21.5432 2272/7fdba3aaf780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-05-22 12:09:21.5437 2272/7fdba3aaf780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 2272
+App 2306 stdout: 
+[ 2017-05-22 12:09:24.3025 2266/7f99d44cc700 age/Cor/SecurityUpdateChecker.h:356 ]: Security update check: no update found (next check in 24 hours)
+App 2328 stdout: 
+
+[ 2017-05-22 12:09:58.5895 2266/7f99cd9be700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-05-22 12:09:58.5895 2266/7f99d45bb780 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-05-22 12:09:58.5895 2266/7f99d45bb780 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2328, application /home/ubuntu/UrlShortener/public (development)
+[ 2017-05-22 12:09:58.5896 2266/7f99cd13c700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-05-22 12:09:58.5896 2266/7f99cd13c700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-05-22 12:09:58.5897 2266/7f99cd9be700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-05-22 12:09:58.5897 2266/7f99cd9be700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2017-05-22 12:09:58.5898 2266/7f99d45bb780 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2328, application /home/ubuntu/UrlShortener/public (development)
+
+[ 2017-05-22 12:09:58.5930 2272/7fdb9ce73700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-05-22 12:09:58.5930 2272/7fdba3aaf780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-05-22 12:09:58.5931 2272/7fdb97fff700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-05-22 12:09:58.5931 2272/7fdb97fff700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-05-22 12:09:58.5932 2272/7fdb9ce73700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-05-22 12:09:58.5934 2272/7fdba3aaf780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-05-22 12:09:58.8177 2266/7f99d45bb780 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2017-05-22 12:16:28.2147 2480/7fc2c8ab9780 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-05-22 12:16:28.2217 2483/7f9c36ba9780 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-05-22 12:16:28.2218 2483/7f9c36ba9780 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-05-22 12:16:28.2244 2483/7f9c36ba9780 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 2483
+[ 2017-05-22 12:16:28.2318 2489/7fd7dfadd780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-05-22 12:16:28.2322 2489/7fd7dfadd780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 2489
+App 2523 stdout: 
+[ 2017-05-22 12:16:31.1389 2483/7f9c36aba700 age/Cor/SecurityUpdateChecker.h:356 ]: Security update check: no update found (next check in 24 hours)
+App 2545 stdout: 
+
+[ 2017-05-22 12:16:50.0368 2483/7f9c2ffac700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-05-22 12:16:50.0369 2483/7f9c36ba9780 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-05-22 12:16:50.0369 2483/7f9c36ba9780 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2545, application /home/ubuntu/UrlShortener/public (development)
+[ 2017-05-22 12:16:50.0369 2483/7f9c2f72a700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-05-22 12:16:50.0369 2483/7f9c2f72a700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-05-22 12:16:50.0371 2483/7f9c2ffac700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-05-22 12:16:50.0371 2483/7f9c2ffac700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2017-05-22 12:16:50.0371 2483/7f9c36ba9780 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2545, application /home/ubuntu/UrlShortener/public (development)
+
+[ 2017-05-22 12:16:50.0410 2489/7fd7d8ea1700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-05-22 12:16:50.0410 2489/7fd7dfadd780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-05-22 12:16:50.0411 2489/7fd7d3fff700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-05-22 12:16:50.0411 2489/7fd7d3fff700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-05-22 12:16:50.0411 2489/7fd7d8ea1700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-05-22 12:16:50.0414 2489/7fd7dfadd780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-05-22 12:16:50.2646 2483/7f9c36ba9780 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished

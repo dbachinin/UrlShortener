@@ -8,4 +8,9 @@
   <%= will_paginate @inboxes %>
 </div>
 
+<%= content_for :sidebar do %>
+
+  <li><%= link_to "#{casein_show_icon "plus-sign"}Add Short URL".html_safe, new_casein_link_path %></li>
+
+<% end %>
 

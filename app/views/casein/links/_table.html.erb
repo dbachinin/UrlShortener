@@ -24,9 +24,9 @@
      %>
 
     <tr>
-      <td><h5 class="text-warning"><%= casein_table_cell_link link.title, casein_link_path(link) %></h5></td>
+      <td><h5 class="text-warning"><%= casein_table_cell_link truncate(link.title, length: 30), casein_link_path(link) %></h5></td>
       <td><code><%= casein_table_cell_link link.slug, casein_link_path(link) %></code></td>
-      <td><%= casein_table_cell_link truncate(link.given_url, length: 50), casein_link_path(link) %></td>
+      <td><%= casein_table_cell_link truncate(link.given_url, length: 30), casein_link_path(link) %></td>
       
       </td>
     </tr>

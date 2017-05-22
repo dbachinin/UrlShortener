@@ -1,3 +1,4 @@
 <div class=col-lg-6>
     <div class="text-center"><h1><%= link_to @url, @url %></h1></div>
+    <p class="text-primary"><%= Link.find_by_slug(@url.last(4)).title %><p>
     </div>

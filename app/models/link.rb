@@ -1,7 +1,7 @@
 class Link < ApplicationRecord
   belongs_to :casein_admin_users, optional: true
 
-  baselink = 'http://localhost:3000/'
+  baselink = 'http://54.187.194.9/'
   validates :slug, length: { maximum: 4 }, uniqueness: {
     message: ->(object, data) do 
       "#{ENV['BASE_URL']}#{data[:value]} allready enter and it`s long URL - #{Link.find_by_slug(object.slug).given_url}"
@@ -35,7 +35,7 @@ class Link < ApplicationRecord
   end
 
   def display_slug
-   "http://localhost:3000/" + self.slug.to_s
+   "http://54.187.194.9/" + self.slug.to_s
   end
 
     def perform(link_id)

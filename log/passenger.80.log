@@ -1,0 +1,74 @@
+2017/05/22 12:18:17 [emerg] 2602#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/05/22 12:18:17 [emerg] 2602#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/05/22 12:18:17 [emerg] 2602#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/05/22 12:18:17 [emerg] 2602#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/05/22 12:18:17 [emerg] 2602#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/05/22 12:18:17 [emerg] 2602#0: still could not bind()
+[ 2017-05-22 12:18:36.8942 2626/7fc92680c780 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-05-22 12:18:36.9014 2629/7eff86681780 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-05-22 12:18:36.9015 2629/7eff86681780 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-05-22 12:18:36.9041 2629/7eff86681780 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 2629
+[ 2017-05-22 12:18:36.9120 2635/7f3db7174780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-05-22 12:18:36.9123 2635/7f3db7174780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 2635
+App 2666 stdout: 
+[ 2017-05-22 12:18:39.7116 2629/7eff86592700 age/Cor/SecurityUpdateChecker.h:356 ]: Security update check: no update found (next check in 24 hours)
+App 2684 stdout: 
+App 2666 stderr: [ 2017-05-22 12:18:41.0724 2684/0x000000013880a0(Worker 1) utils.rb:87 ]: *** Exception RuntimeError in Rack application object (Missing `secret_key_base` for 'production' environment, set this value in `config/secrets.yml`) (process 2684, thread 0x000000013880a0(Worker 1)):
+App 2666 stderr: 	from /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/railties-5.0.3/lib/rails/application.rb:513:in `validate_secret_key_config!'
+App 2666 stderr: 	from /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/railties-5.0.3/lib/rails/application.rb:246:in `env_config'
+App 2666 stderr: 	from /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/railties-5.0.3/lib/rails/engine.rb:693:in `build_request'
+App 2666 stderr: 	from /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/railties-5.0.3/lib/rails/application.rb:521:in `build_request'
+App 2666 stderr: 	from /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/railties-5.0.3/lib/rails/engine.rb:521:in `call'
+App 2666 stderr: 	from /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/passenger-5.1.4/src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+App 2666 stderr: 	from /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/passenger-5.1.4/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:160:in `accept_and_process_next_request'
+App 2666 stderr: 	from /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/passenger-5.1.4/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+App 2666 stderr: 	from /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/passenger-5.1.4/src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+App 2666 stderr: 	from /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/passenger-5.1.4/src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+[ 2017-05-22 12:18:41.0726 2629/7eff7fa84700 age/Cor/Con/InternalUtils.cpp:112 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+App 2666 stderr: [ 2017-05-22 12:18:43.9695 2684/0x000000013880a0(Worker 1) utils.rb:87 ]: *** Exception RuntimeError in Rack application object (Missing `secret_key_base` for 'production' environment, set this value in `config/secrets.yml`) (process 2684, thread 0x000000013880a0(Worker 1)):
+App 2666 stderr: 	from /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/railties-5.0.3/lib/rails/application.rb:513:in `validate_secret_key_config!'
+App 2666 stderr: 	from /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/railties-5.0.3/lib/rails/application.rb:246:in `env_config'
+App 2666 stderr: 	from /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/railties-5.0.3/lib/rails/engine.rb:693:in `build_request'
+App 2666 stderr: 	from /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/railties-5.0.3/lib/rails/application.rb:521:in `build_request'
+App 2666 stderr: 	from /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/railties-5.0.3/lib/rails/engine.rb:521:in `call'
+App 2666 stderr: 	from /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/passenger-5.1.4/src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+App 2666 stderr: 	from /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/passenger-5.1.4/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+App 2666 stderr: 	from /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/passenger-5.1.4/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+App 2666 stderr: 	from /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/passenger-5.1.4/src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+App 2666 stderr: 	from /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/passenger-5.1.4/src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+[ 2017-05-22 12:18:43.9696 2629/7eff7fa84700 age/Cor/Con/InternalUtils.cpp:112 ]: [Client 1-2] Sending 502 response: application did not send a complete response
+
+[ 2017-05-22 12:20:38.5288 2629/7eff7fa84700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-05-22 12:20:38.5289 2629/7eff86681780 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-05-22 12:20:38.5289 2629/7eff86681780 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2684, application /home/ubuntu/UrlShortener/public (production)
+[ 2017-05-22 12:20:38.5289 2629/7eff7f202700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-05-22 12:20:38.5289 2629/7eff7f202700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-05-22 12:20:38.5291 2629/7eff7fa84700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-05-22 12:20:38.5291 2629/7eff7fa84700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2017-05-22 12:20:38.5291 2629/7eff86681780 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2684, application /home/ubuntu/UrlShortener/public (production)
+
+[ 2017-05-22 12:20:38.5331 2635/7f3db0538700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-05-22 12:20:38.5331 2635/7f3db7174780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-05-22 12:20:38.5331 2635/7f3dafd37700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-05-22 12:20:38.5331 2635/7f3dafd37700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-05-22 12:20:38.5333 2635/7f3db0538700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-05-22 12:20:38.5333 2635/7f3db7174780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-05-22 12:20:38.7582 2629/7eff86681780 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2017-05-22 12:21:24.0622 2786/7fa7562c6780 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2017-05-22 12:21:24.0695 2789/7fc424d90780 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2017-05-22 12:21:24.0696 2789/7fc424d90780 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2017-05-22 12:21:24.0722 2789/7fc424d90780 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 2789
+[ 2017-05-22 12:21:24.0802 2795/7f7b091cf780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-05-22 12:21:24.0805 2795/7f7b091cf780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 2795
+App 2826 stdout: 
+[ 2017-05-22 12:21:26.9265 2789/7fc424ca1700 age/Cor/SecurityUpdateChecker.h:356 ]: Security update check: no update found (next check in 24 hours)
+App 2848 stdout: 
+App 2870 stdout: 
+App 2894 stdout: 
+[ 2017-05-22 12:27:01.3196 2789/7fc424d2c700 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2894, application /home/ubuntu/UrlShortener/public (development)
+[ 2017-05-22 12:31:42.4460 2789/7fc424d2c700 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2870, application /home/ubuntu/UrlShortener/public (development)
+App 3387 stdout: 
+App 3409 stdout: 
+App 3543 stdout: 
+[ 2017-05-22 12:42:23.7512 2789/7fc424d2c700 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 3409, application /home/ubuntu/UrlShortener/public (development)
+[ 2017-05-22 12:42:23.8285 2789/7fc424d2c700 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 3543, application /home/ubuntu/UrlShortener/public (development)

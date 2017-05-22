@@ -11,12 +11,12 @@
 
   <% inboxes.each do |inbox|
     if inbox.reseiver == current_user.id
-      shortmessage = inbox.shortmessage
+      shortmessage = inbox.shortmessage.last(4)
       sender = inbox.sender
    %>
     <tr>
-      <td><%= casein_table_cell_link shortmessage, casein_inbox_path(inbox) %></td>
-      <td><%= casein_table_cell_link sender, casein_inbox_path(inbox) %></td>
+      <td><%= casein_table_cell_link truncate(Link.find_by_slug(shortmessage).title, length: 30), casein_inbox_path(inbox) %></td>
+      <td><%= casein_table_cell_link Casein::AdminUser.find(sender).name, casein_inbox_path(inbox) %></td>
        <td class="delete">
         <%= link_to(casein_show_row_icon("trash"), casein_inbox_path(inbox), method: :delete, data: { confirm: "Are you sure you want to delete this inbox?" }) %>
         <% end %>
