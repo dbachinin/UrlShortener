@@ -18334,3 +18334,69 @@ Processing by Casein::InboxesController#index as HTML
 Completed 200 OK in 38ms (Views: 31.3ms | ActiveRecord: 2.2ms)
 
 
+Started GET "/casein" for 213.27.19.233 at 2017-05-22 13:42:03 +0000
+Cannot render console from 213.27.19.233! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Casein::LinksController#index as HTML
+  [1m[36mCasein::AdminUser Load (0.3ms)[0m  [1m[34mSELECT  "casein_admin_users".* FROM "casein_admin_users" WHERE "casein_admin_users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "casein_admin_users" SET "perishable_token" = $1, "last_request_at" = $2, "updated_at" = $3 WHERE "casein_admin_users"."id" = $4[0m  [["perishable_token", "lNhRdL5emC2wGXLQcw5E"], ["last_request_at", "2017-05-22 13:42:03.681128"], ["updated_at", "2017-05-22 13:42:03.681768"], ["id", 2]]
+  [1m[35m (3.4ms)[0m  [1m[35mCOMMIT[0m
+  Rendering casein/links/index.html.erb within layouts/casein_main
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "links"[0m
+  [1m[36mCasein::AdminUser Load (0.2ms)[0m  [1m[34mSELECT  "casein_admin_users".* FROM "casein_admin_users" WHERE "casein_admin_users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT  "links".* FROM "links" ORDER BY "links"."given_url" ASC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered casein/links/_table.html.erb (2.8ms)
+  Rendered casein/links/index.html.erb within layouts/casein_main (4.3ms)
+  Rendered casein/layouts/_top_navigation.html.erb (0.4ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "inboxes" WHERE "inboxes"."reseiver" = 2 AND "inboxes"."read" IS NULL[0m
+  Rendered casein/layouts/_tab_navigation.html.erb (1.3ms)
+Completed 200 OK in 40ms (Views: 30.9ms | ActiveRecord: 4.9ms)
+
+
+Started DELETE "/casein/admin_user_session" for 213.27.19.233 at 2017-05-22 13:42:33 +0000
+Cannot render console from 213.27.19.233! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Casein::AdminUserSessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"PofePMVWsRnpC4mTVSXBGlK9GppUEtTEeJCZdcwySfBxol+7GOq1hp4sLGa+FpMxqhqxs0DEKZVmZHh67rKdiA=="}
+  [1m[36mCasein::AdminUser Load (0.3ms)[0m  [1m[34mSELECT  "casein_admin_users".* FROM "casein_admin_users" WHERE "casein_admin_users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "casein_admin_users" SET "perishable_token" = $1, "last_request_at" = $2, "updated_at" = $3 WHERE "casein_admin_users"."id" = $4[0m  [["perishable_token", "zT18WxQW0M5MHcdcRus"], ["last_request_at", "2017-05-22 13:42:33.938534"], ["updated_at", "2017-05-22 13:42:33.939145"], ["id", 2]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://54.187.194.9/casein/admin_user_session/new
+Completed 302 Found in 5ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/casein/admin_user_session/new" for 213.27.19.233 at 2017-05-22 13:42:34 +0000
+Cannot render console from 213.27.19.233! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Casein::AdminUserSessionsController#new as HTML
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/casein-5.2.0.0/app/views/casein/admin_user_sessions/new.html.erb within layouts/casein_auth
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/casein-5.2.0.0/app/views/casein/admin_user_sessions/new.html.erb within layouts/casein_auth (1.6ms)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/casein/admin_user_session/new" for 213.27.19.233 at 2017-05-22 13:51:49 +0000
+Cannot render console from 213.27.19.233! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Casein::AdminUserSessionsController#new as HTML
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/casein-5.2.0.0/app/views/casein/admin_user_sessions/new.html.erb within layouts/casein_auth
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.4.0/gems/casein-5.2.0.0/app/views/casein/admin_user_sessions/new.html.erb within layouts/casein_auth (1.6ms)
+Completed 200 OK in 33ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/casein" for 213.27.19.233 at 2017-05-22 13:54:32 +0000
+Cannot render console from 213.27.19.233! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Casein::LinksController#index as HTML
+  [1m[36mCasein::AdminUser Load (0.3ms)[0m  [1m[34mSELECT  "casein_admin_users".* FROM "casein_admin_users" WHERE "casein_admin_users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "casein_admin_users" SET "perishable_token" = $1, "last_request_at" = $2, "updated_at" = $3 WHERE "casein_admin_users"."id" = $4[0m  [["perishable_token", "oATnCcKRhfO8s79Z7NmB"], ["last_request_at", "2017-05-22 13:54:32.600316"], ["updated_at", "2017-05-22 13:54:32.600955"], ["id", 1]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  Rendering casein/links/index.html.erb within layouts/casein_main
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "links"[0m
+  [1m[36mCasein::AdminUser Load (0.2ms)[0m  [1m[34mSELECT  "casein_admin_users".* FROM "casein_admin_users" WHERE "casein_admin_users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT  "links".* FROM "links" ORDER BY "links"."given_url" ASC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered casein/links/_table.html.erb (3.1ms)
+  Rendered casein/links/index.html.erb within layouts/casein_main (4.6ms)
+  Rendered casein/layouts/_top_navigation.html.erb (0.4ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "inboxes" WHERE "inboxes"."reseiver" = 1 AND "inboxes"."read" IS NULL[0m
+  Rendered casein/layouts/_tab_navigation.html.erb (1.2ms)
+Completed 200 OK in 37ms (Views: 30.5ms | ActiveRecord: 2.5ms)
+
+
