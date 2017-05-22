@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This simple app, shorted you long URL, and share it among other users.
 
-Things you may want to cover:
+This app created on Casein CMS https://github.com/russellquinn/casein.
 
-* Ruby version
+Before you start this app:
 
-* System dependencies
+Replace IP BASE_URL in config/application.yml and app/models/link.rb with you domain name or IP.
 
-* Configuration
+create database connection in config/database.yml
 
-* Database creation
+and rewrite you database connection requisites.
 
-* Database initialization
+Aftervards.
 
-* How to run the test suite
+bundle install
 
-* Services (job queues, cache servers, search engines, etc.)
+and you require create admin
 
-* Deployment instructions
+rake db:setup
+rake 
+rake casein:users:create_admin email=you@mail.com password=123456789
 
-* ...
+And that's all! You can login!
